@@ -12,12 +12,15 @@ public static void main(String[] args) {
 	int birthDay = 13;
 	int birthMonth = 9;
 	int birthYear = 1998;
+	
+//	Sommo i valori di giorno, mese e anno del compleanno dell'utente
 	int birthdaySum = birthDay + birthMonth + birthYear; 
 	
-	System.out.println(firstname + "-" + lastname + "-" + favColor.toLowerCase() + "-" + birthdaySum );
+//	Compongo la password
+	String password = firstname + "-" + lastname + "-" + favColor.toLowerCase() + "-" + birthdaySum;
+	
+// Stampo la password
+	System.out.println(password); 
 			
-	
-	
-	
 }
 }
